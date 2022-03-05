@@ -13,8 +13,7 @@
     </a>
     <span> | </span>
     <a href="https://devchallenges.io/solutions/LNKAKpw86Kcs5zoEQfY8">
-      Solution!
-
+      Solution
     </a>
     <span> | </span>
     <a href="https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY">
