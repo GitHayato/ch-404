@@ -1,0 +1,21 @@
+{
+  "name": "ch-404",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/GitHayato/ch-404.git"
+  },
+  "author": "gabayt0_0@icloud.com <gabayt0_0@icloud.com>",
+  "license": "MIT",
+  "description": "https://devchallenges.io/ - 404 Not Found",
+  "bugs": {
+    "url": "https://github.com/GitHayato/ch-404/issues"
+  },
+  "homepage": "https://github.com/GitHayato/ch-404#readme",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {}
+}
