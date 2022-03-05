@@ -1,0 +1,121 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  display: inline-block;
+  min-height: 100vh;
+  height: 100%;
+}
+
+.wrapper {
+  height: 100%;
+  padding: 0 77px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+  .wrapper {
+    padding: 0px 24px;
+  }
+}
+
+header {
+  font-family: "Inconsolata";
+  font-size: 24px;
+  height: 65px;
+  display: flex;
+  align-items: end;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100% - 106px);
+}
+
+@media (max-width: 767px) {
+  .container {
+    display: block;
+    padding-top: 64px;
+  }
+}
+
+.img-wrapper {
+  width: 100%;
+}
+
+.scarecrow-img {
+  width: 540px;
+  height: auto;
+}
+
+@media (max-width: 767px) {
+  .scarecrow-img {
+    width: 287px;
+    height: auto;
+    margin: 0 auto;
+  }
+}
+
+.main-wrapper {
+  maring-left: 120px;
+  font-family: "Space Mono", monospace;
+}
+
+.main-wrapper h1 {
+  font-size: 64px;
+  font-weight: bold;
+  color: #333;
+}
+
+@media (max-width: 767px) {
+  .main-wrapper h1 {
+    font-size: 48px;
+  }
+}
+
+.main-wrapper p {
+  font-size: 24px;
+  color: #4f4f4f;
+  margin-top: 36px;
+}
+
+@media (max-width: 767px) {
+  .main-wrapper p {
+    font-size: 18px;
+    margin-top: 30px;
+  }
+}
+
+.main-wrapper button {
+  color: #fff;
+  background-color: #333;
+  margin-top: 64px;
+  width: 216px;
+  height: 68px;
+  font-size: 14px;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 41px;
+}
+
+footer p {
+  font-family: "Montserrat";
+  font-size: 14px;
+  color: #bdbdbd;
+}
+
+.github-link {
+  font-weight: bold;
+  text-decoration: underline;
+}
